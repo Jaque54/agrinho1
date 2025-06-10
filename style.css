@@ -1,3 +1,215 @@
+
+
+/* estilo.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f9f4;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #2e7d32, #66bb6a);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 1rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #dcedc8;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  color: #2e7d32;
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  color: #388e3c;
+  margin-bottom: 0.5rem;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.galeria img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  text-align: body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-cbody {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-cbody {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -42,245 +254,686 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  resize: vertical;
-}
-
-img.imagem-exemplo {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border: 3px dashed #4CAF50;
-  border-radius: 10px;
-  margin: 1rem 0;
-}
-
-footer {
-  background-color: #2e7d32;
+  margin-bot
+header {
+  background-color: #388e3c;
   color: white;
   text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-}
-O ChatGPT disse:
-Claro! Vou melhorar o seu código HTML e CSS focando em:
-
-Melhorar a acessibilidade (uso de roles, labels, alt mais descritivos, estrutura semântica correta);
-
-Substituir imagens por URLs reais e relevantes;
-
-Tornar o HTML mais semântico e organizado;
-
-Ajustar o CSS para um visual mais moderno e legível, mantendo a paleta verde que remete ao tema campo & cidade.
-
-Código HTML melhorado com acessibilidade e conteúdo atualizado
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Conexão Campo & Cidade - Projeto Agrinho</title>
-  <link rel="stylesheet" href="estilo.css" />
-</head>
-<body>
-
-  <header role="banner">
-    <h1>Conexão Campo & Cidade</h1>
-    <p>Um projeto que celebra a união entre dois mundos essenciais</p>
-  </header>
-
-  <main>
-    <section class="banner" aria-labelledby="banner-title">
-      <h2 id="banner-title">Bem-vindo ao Projeto Agrinho</h2>
-      <p>Aqui, alunos exploram como o campo e a cidade se complementam para construir nosso futuro.</p>
-    </section>
-
-    <section class="sobre" aria-labelledby="sobre-title">
-      <h2 id="sobre-title">Sobre o Projeto</h2>
-      <p>O campo produz alimentos, matérias-primas e preserva a natureza. A cidade transforma, inova e conecta pessoas. Juntos, são fundamentais para nossa vida diária. Este projeto valoriza ambos os ambientes com textos, imagens e a criatividade dos alunos.</p>
-    </section>
-
-    <section class="galeria" aria-labelledby="galeria-title">
-      <h2 id="galeria-title">Galeria de Imagens</h2>
-      <div class="imagem-box">
-        <figure>
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Campo verde com plantações ao amanhecer" class="imagem-exemplo" />
-          <figcaption>Campo verde com plantações ao amanhecer</figcaption>
-        </figure>
-
-        <figure>
-          <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=600&q=80" alt="Vista aérea de uma cidade com prédios e ruas iluminadas à noite" class="imagem-exemplo" />
-          <figcaption>Vista aérea de uma cidade com prédios e ruas iluminadas à noite</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="textos" aria-labelledby="textos-title">
-      <h2 id="textos-title">Textos e Reflexões</h2>
-      <form>
-        <label for="resposta-campo"><strong>1. O que o campo representa para você?</strong></label>
-        <textarea id="resposta-campo" rows="4" placeholder="Escreva aqui sua resposta..." aria-describedby="campo-help"></textarea>
-        <small id="campo-help">Você pode compartilhar suas ideias livremente.</small>
-
-        <label for="resposta-cidade"><strong>2. Como a cidade se conecta com a vida rural?</strong></label>
-        <textarea id="resposta-cidade" rows="4" placeholder="Digite sua resposta..." aria-describedby="cidade-help"></textarea>
-        <small id="cidade-help">Pense nas relações entre os dois ambientes.</small>
-
-        <button type="submit">Enviar Respostas</button>
-      </form>
-    </section>
-  </main>
-
-  <footer role="contentinfo">
-    <p>&copy; 2025 – Projeto Agrinho | Escola Estadual Modelo</p>
-  </footer>
-
-</body>
-</html>
-CSS atualizado para estilo e acessibilidade
-/* Reset básico para margens e fontes */
-* {
-  box-sizing: border-box;
+  padding: 2rem 1rem;
 }
 
-body {
+header h1 {
+  margin: 0;
+}
+
+.banner {body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #d0f0c0; /* fundo verde claro */
-  color: #2e2e2e;
-  line-height: 1.6;
+  color: #333;
 }
 
 header {
   background-color: #388e3c;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 2rem 1rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 header h1 {
-  margin: 0 0 0.5rem;
-  font-size: 2.5rem;
+  margin: 0;
 }
 
-.banner, .sobre, .galeria, .textos {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 1.5rem 2rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-
-/* Cores diferenciadas por seção para fácil distinção */
 .banner {
   background-color: #f1f8e9;
   text-align: center;
+  padding: 2rem 1rem;
 }
 
 .sobre {
   background-color: #ffffff;
+  padding: 2rem;
 }
 
 .galeria {
   background-color: #fce4ec;
+  padding: 2rem;
 }
 
 .textos {
   background-color: #e3f2fd;
-}
-
-h2 {
-  color: #2e7d32;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-.imagem-box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-}
-
-figure {
-  flex: 1 1 280px;
-  margin: 0;
-  text-align: center;
-}
-
-figcaption {
-  margin-top: 0.5rem;
-  font-style: italic;
-  color: #555;
-}
-
-img.imagem-exemplo {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border: 3px dashed #4caf50;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-form label {
-  display: block;
-  margin: 1rem 0 0.5rem;
-  font-weight: bold;
-  color: #1b5e20;
+  padding: 2rem;
 }
 
 textarea {
   width: 100%;
-  padding: 12px;
-  border: 2px solid #4caf50;
-  border-radius: 8px;
-  font-size: 1rem;
-  resize: vertical;
-  transition: border-color 0.3s ease;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+  background-cbody {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
 }
 
-textarea:focus {
-  border-color: #2e7d32;
-  outline: none;
-  background-color: #f9fff9;
-}
-
-small {
-  color: #4a7c38;
-  font-size: 0.85rem;
-  display: block;
-  margin-top: 0.2rem;
-}
-
-button {
+header {
   background-color: #388e3c;
   color: white;
-  padding: 0.75rem 1.5rem;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 1rem;
-  transition: background-color 0.3s ease;
+  text-align: center;
+  padding: 2rem 1rem;
 }
 
-button:hover,
-button:focus {
-  background-color: #2e7d32;
-  outline: none;
+header h1 {
+  margin: 0;
+}body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fubody {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-botndo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-cbody {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0; /* fundo verde claro */
+  color: #333;
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-botolor: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-botolor: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-botolor: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-botolor: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+  margin: 0;
+}
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bot
+
+.banner {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.sobre {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.galeria {
+  background-color: #fce4ec;
+  padding: 2rem;
+}
+
+.textos {
+  background-color: #e3f2fd;
+  padding: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-botcenter;
+}
+
+.links li {
+  margin: 0.5rem 0;
+}
+
+.links a {
+  color: #1b5e20;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
 
 footer {
-  background-color: #2e7d32;
+  background-color: #1b5e20;
   color: white;
   text-align: center;
   padding: 1rem;
   margin-top: 3rem;
   font-size: 0.9rem;
-  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .cards, .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
