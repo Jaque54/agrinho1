@@ -14,7 +14,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #8B4513; /* Changed to SaddleBrown */
+    background-color: #4CAF50; /* Changed to a slightly darker, more balanced green */
     color: #fff;
     padding: 20px 0;
 }
@@ -54,7 +54,7 @@ section {
 
 h2 {
     font-size: 2em;
-    color: #A52A2A; /* Changed to Brown for better contrast */
+    color: #6DBE45; /* Reverted to the original vibrant green */
     margin-bottom: 20px;
 }
 
@@ -105,7 +105,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #8B4513; /* Changed to SaddleBrown */
+    background-color: #4CAF50; /* Matched with the new header green */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -115,7 +115,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #65360F; /* Darker brown for hover */
+    background-color: #45a049; /* Darker shade for hover effect */
 }
 
 /* Rodapé */
@@ -129,6 +129,7 @@ footer {
 footer p {
     font-size: 1em;
 }
+
 
 
 
