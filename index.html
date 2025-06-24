@@ -1,22 +1,27 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Conexão Campo e Cidade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conexão Campo e Cidade - Agricultura Sustentável</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body { font-family: 'Inter', sans-serif; }
-    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    img {
+      object-fit: cover;
+    }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
 
   <header class="bg-green-700 text-white py-6 shadow-md">
-    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
-      <h1 class="text-4xl font-bold">Conexão Campo e Cidade</h1>
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+      <h1 class="text-4xl font-bold mb-4 md:mb-0">Conexão Campo e Cidade</h1>
       <nav>
         <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-lg">
           <li><a href="#home" class="hover:text-green-200">Home</a></li>
@@ -29,87 +34,108 @@
     </div>
   </header>
 
+  <!-- Home -->
   <section id="home" class="py-16 bg-white text-center">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-extrabold text-green-600 mb-6">Bem-vindo ao nosso site</h2>
-      <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">Explore o poder da agricultura orgânica e sustentável.</p>
-      <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-           alt="Mãos plantando uma muda"
-           class="rounded-lg shadow-xl w-full max-w-4xl mx-auto mb-6">
+      <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+        Explore o poder da agricultura orgânica e sustentável, conectando o campo com a cidade.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=800&q=80"
+             alt="Mãos plantando uma muda" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80"
+             alt="Agricultor em plantação orgânica" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+        <img src="https://images.unsplash.com/photo-1584270354949-2a5d8e08f2ec?auto=format&fit=crop&w=800&q=80"
+             alt="Colheita de vegetais orgânicos" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+      </div>
     </div>
   </section>
 
+  <!-- Sobre -->
   <section id="sobre" class="py-16 bg-gray-50 text-center">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-extrabold text-green-600 mb-6">O que é Agricultura Orgânica?</h2>
       <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-        Agricultura orgânica é um método de cultivo que respeita o meio ambiente.
+        Agricultura orgânica é o cultivo respeitando o meio ambiente, sem uso de químicos prejudiciais.
       </p>
-      <img src="https://images.unsplash.com/photo-1615485298482-d93107e847ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-           alt="Campo de alface orgânico"
-           class="rounded-lg shadow-xl w-full max-w-3xl mx-auto mb-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <img src="https://images.unsplash.com/photo-1615485298482-d93107e847ed?auto=format&fit=crop&w=800&q=80"
+             alt="Campo de alface orgânico" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+             alt="Plantação sustentável" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+        <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=800&q=80"
+             alt="Solo fértil e saudável" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+      </div>
     </div>
   </section>
 
+  <!-- Benefícios -->
   <section id="beneficios" class="py-16 bg-white text-center">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-extrabold text-green-600 mb-10">Benefícios da Agricultura Sustentável</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="bg-green-100 p-4 rounded shadow">
-          <h3 class="text-2xl font-semibold text-green-700">Meio Ambiente</h3>
-          <p>Preservação ambiental e conservação dos recursos naturais.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto text-left">
+        <div class="bg-green-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Meio Ambiente</h3>
+          <p>Preserva o meio ambiente, reduz poluição e conserva recursos naturais.</p>
         </div>
-        <div class="bg-green-100 p-4 rounded shadow">
-          <h3 class="text-2xl font-semibold text-green-700">Saúde Humana</h3>
-          <p>Alimentos mais saudáveis e livres de químicos.</p>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Saúde Humana</h3>
+          <p>Alimentos mais nutritivos, livres de agrotóxicos e químicos.</p>
         </div>
-        <div class="bg-green-100 p-4 rounded shadow">
-          <h3 class="text-2xl font-semibold text-green-700">Biodiversidade</h3>
-          <p>Proteção da fauna e flora locais.</p>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Biodiversidade</h3>
+          <p>Protege espécies vegetais e animais, fomentando diversidade.</p>
         </div>
-        <div class="bg-green-100 p-4 rounded shadow">
-          <h3 class="text-2xl font-semibold text-green-700">Economia Local</h3>
-          <p>Fortalecimento das comunidades locais.</p>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Economia Local</h3>
+          <p>Fortalece a economia local e comunidades resilientes.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Como Aplicar -->
   <section id="aplicar" class="py-16 bg-gray-50 text-center">
-    <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-extrabold text-green-600 mb-8">Como Aplicar</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-        <div class="bg-white p-4 rounded shadow">
-          <h3 class="text-2xl font-semibold text-green-700">Sementes orgânicas</h3>
-          <p>Use sementes naturais sem modificação genética.</p>
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-10">Como Aplicar a Agricultura Sustentável</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">1. Escolha sementes orgânicas</h3>
+          <p>Use sementes não modificadas geneticamente e sem tratamentos químicos.</p>
         </div>
-        <div class="bg-white p-4 rounded shadow">
-          <h3 class="text-2xl font-semibold text-green-700">Compostagem</h3>
-          <p>Transforme resíduos em adubo natural.</p>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">2. Pratique compostagem</h3>
+          <p>Transforme resíduos orgânicos em adubo natural para o solo.</p>
         </div>
-        <div class="bg-white p-4 rounded shadow">
-          <h3 class="text-2xl font-semibold text-green-700">Controle natural de pragas</h3>
-          <p>Utilize soluções biológicas no cultivo.</p>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">3. Controle natural de pragas</h3>
+          <p>Utilize métodos biológicos para proteger as plantas sem agredir o ecossistema.</p>
         </div>
-        <div class="bg-white p-4 rounded shadow">
-          <h3 class="text-2xl font-semibold text-green-700">Irrigação eficiente</h3>
-          <p>Implante sistemas que economizam água.</p>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">4. Irrigação eficiente</h3>
+          <p>Adote sistemas que economizam água, como irrigação por gotejamento.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Contato -->
   <section id="contato" class="py-16 bg-white text-center">
-    <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-extrabold text-green-600 mb-6">Entre em Contato</h2>
-      <form action="#" method="POST" class="max-w-xl mx-auto bg-gray-50 p-6 rounded shadow">
-        <input type="text" name="nome" placeholder="Nome" required
-               class="w-full mb-4 px-4 py-2 rounded border">
-        <input type="email" name="email" placeholder="Email" required
-               class="w-full mb-4 px-4 py-2 rounded border">
-        <textarea name="mensagem" rows="4" placeholder="Mensagem" required
-                  class="w-full mb-4 px-4 py-2 rounded border"></textarea>
-        <button type="submit" class="bg-green-600 text-white py-2 px-6 rounded hover:bg-green-700">
+    <div class="container mx-auto px-4 max-w-xl">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-8">Entre em Contato</h2>
+      <form action="#" method="POST" class="bg-gray-50 p-8 rounded-lg shadow-lg text-left">
+        <label for="nome" class="block font-semibold mb-2">Nome:</label>
+        <input type="text" id="nome" name="nome" required
+               class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" />
+        <label for="email" class="block font-semibold mb-2">Email:</label>
+        <input type="email" id="email" name="email" required
+               class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" />
+        <label for="mensagem" class="block font-semibold mb-2">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required
+                  class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+        <button type="submit"
+                class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full w-full transition">
           Enviar
         </button>
       </form>
@@ -122,22 +148,3 @@
 
 </body>
 </html>
-
-
----
-
-✅ Explicação:
-➡ Todas as imagens usadas estão em domínios confiáveis (Unsplash) e carregam automaticamente.
-➡ O código está limpo e pronto para entrega.
-➡ As imagens aparecem na página sem precisar clicar em nada.
-
-
----
-
-💡 Dica:
-Se mesmo assim alguma imagem não aparecer ao abrir no navegador:
-👉 Verifique se você está offline, ou se o navegador está bloqueando imagens externas.
-👉 Tente salvar as imagens no seu computador e usar <img src="caminho/local-da-imagem.jpg">.
-
-Se quiser gero um arquivo HTML já pronto para baixar. Quer? 🚀
-
