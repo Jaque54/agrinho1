@@ -3,21 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Transforme garrafas plásticas em hortas e vasos! Reciclagem prática para uma agricultura urbana e sustentável.">
-  <meta name="author" content="Seu Nome">
-  <title>Conexão Campo e Cidade - Agricultura Sustentável com Reciclagem</title>
+  <title>Conexão Campo e Cidade - Agricultura Sustentável</title>
+  <meta name="description" content="Agricultura orgânica sustentável e a conexão campo-cidade. Veja como criar uma horta orgânica passo a passo!">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-    html {
-      scroll-behavior: smooth;
-    }
-    img {
-      object-fit: cover;
-    }
+    body { font-family: 'Inter', sans-serif; }
+    html { scroll-behavior: smooth; }
+    img { object-fit: cover; }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
@@ -30,7 +23,7 @@
           <li><a href="#home" class="hover:text-green-200">Home</a></li>
           <li><a href="#sobre" class="hover:text-green-200">Sobre</a></li>
           <li><a href="#beneficios" class="hover:text-green-200">Benefícios</a></li>
-          <li><a href="#aplicar" class="hover:text-green-200">Como Aplicar</a></li>
+          <li><a href="#passos" class="hover:text-green-200">Como Plantar</a></li>
           <li><a href="#contato" class="hover:text-green-200">Contato</a></li>
         </ul>
       </nav>
@@ -42,46 +35,72 @@
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-extrabold text-green-600 mb-6">Bem-vindo ao nosso site</h2>
       <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-        Transforme garrafas plásticas em hortas e vasos! Reciclagem prática para uma agricultura urbana e sustentável.
+        Descubra o poder da agricultura orgânica sustentável e a conexão entre o campo e a cidade.<br>
+        Aprenda a fazer sua própria horta em casa com reciclagem e práticas ecológicas!
       </p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <!-- Carousel de imagens -->
+      <div id="carousel" class="relative w-full max-w-3xl h-56 mx-auto overflow-hidden rounded-lg shadow-lg">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80"
+             alt="Plantação orgânica sustentável"
+             class="carousel-img absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity duration-700" />
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+             alt="Conexão campo e cidade"
+             class="carousel-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700" />
+        <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80"
+             alt="Feira de produtores locais"
+             class="carousel-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700" />
         <img src="https://images.unsplash.com/photo-1581091870624-8980b1bb2d0c?auto=format&fit=crop&w=800&q=80"
-             alt="Horta vertical feita com garrafas PET reutilizadas penduradas em parede" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
-        <img src="https://images.unsplash.com/photo-1625641099310-b168f5f14fd4?auto=format&fit=crop&w=800&q=80"
-             alt="Garrafas plásticas recicladas sendo usadas como vasos para plantas" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
-        <img src="https://images.unsplash.com/photo-1591123126385-1cb0dff073dc?auto=format&fit=crop&w=800&q=80"
-             alt="Passo a passo de plantio em garrafas plásticas" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+             alt="Horta vertical com garrafas PET"
+             class="carousel-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700" />
       </div>
     </div>
   </section>
 
-  <!-- O restante do código segue igual, apenas atualize os alt das imagens conforme necessário -->
-
-  <!-- Contato -->
-  <section id="contato" class="py-16 bg-white text-center">
-    <div class="container mx-auto px-4 max-w-xl">
-      <h2 class="text-4xl font-extrabold text-green-600 mb-8">Entre em Contato</h2>
-      <form action="https://formspree.io/f/seu-codigo-aqui" method="POST" class="bg-gray-50 p-8 rounded-lg shadow-lg text-left">
-        <label for="nome" class="block font-semibold mb-2">Nome:</label>
-        <input type="text" id="nome" name="nome" required
-               class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500" />
-        <label for="email" class="block font-semibold mb-2">Email:</label>
-        <input type="email" id="email" name="email" required
-               class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500" />
-        <label for="mensagem" class="block font-semibold mb-2">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required
-                  class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500"></textarea>
-        <button type="submit"
-                class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full w-full transition">
-          Enviar
-        </button>
-      </form>
+  <!-- Sobre -->
+  <section id="sobre" class="py-16 bg-gray-50 text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-6">Conexão Campo e Cidade</h2>
+      <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+        A agricultura orgânica é uma alternativa sustentável que respeita o meio ambiente. O fortalecimento da conexão entre o campo e a cidade permite que alimentos mais saudáveis cheguem à mesa de todos, promovendo economia local, qualidade de vida e preservação ambiental.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <img src="https://images.unsplash.com/photo-1625641099310-b168f5f14fd4?auto=format&fit=crop&w=800&q=80"
+             alt="Garrafas PET recicladas para plantar uma horta" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+        <img src="https://images.unsplash.com/photo-1617093726748-930fb48e4f01?auto=format&fit=crop&w=800&q=80"
+             alt="Horta urbana sustentável" class="rounded-lg shadow-lg w-full h-48 md:h-56" />
+      </div>
     </div>
   </section>
 
-  <footer class="bg-gray-800 text-white py-4 text-center">
-    <p>&copy; 2025 Conexão Campo e Cidade. Todos os direitos reservados.</p>
-  </footer>
+  <!-- Benefícios -->
+  <section id="beneficios" class="py-16 bg-white text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-10">Benefícios da Agricultura Orgânica e Reciclagem</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto text-left">
+        <div class="bg-green-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Saúde</h3>
+          <p>Alimentos livres de agrotóxicos e mais nutritivos para toda a família.</p>
+        </div>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Sustentabilidade</h3>
+          <p>Redução do impacto ambiental, reciclando materiais e preservando recursos naturais.</p>
+        </div>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Economia</h3>
+          <p>Produza seus próprios alimentos e economize nas compras.</p>
+        </div>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Comunidade</h3>
+          <p>Fortaleça o vínculo entre produtores locais e consumidores na cidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</body>
-</html>
+  <!-- Como Plantar - Passo a Passo -->
+  <section id="passos" class="py-16 bg-gray-50 text-center">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-10">Como Fazer Sua Horta Orgânica – Passo a Passo</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+        <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+          <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?
