@@ -1,126 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Conexão Campo e Cidade</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conexão Campo e Cidade - Agricultura Orgânica e Sustentável</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+      font-family: 'Inter', sans-serif;
     }
-    header, footer {
-      background-color: #4CAF50;
-      color: white;
-      text-align: center;
-      padding: 10px 20px;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      padding: 0;
-      margin: 0;
-    }
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-    }
-    .container {
-      padding: 20px;
-      max-width: 1000px;
-      margin: auto;
+    html {
+      scroll-behavior: smooth;
     }
     img {
-      width: 100%;
+      object-fit: cover;
+      max-width: 100%;
       height: auto;
-      margin: 10px 0;
-      display: block;
+      border-radius: 0.5rem; /* arredonda as bordas */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Conexão Campo e Cidade</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#beneficios">Benefícios</a></li>
-        <li><a href="#passos">Como Plantar</a></li>
-        <li><a href="#producao">Produção Agrícola</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+<body class="bg-gray-100 text-gray-800 antialiased">
+
+  <!-- Cabeçalho -->
+  <header class="bg-green-700 text-white py-6 shadow-md">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+      <h1 class="text-4xl font-bold text-center md:text-left mb-4 md:mb-0">Conexão Campo e Cidade</h1>
+      <nav>
+        <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-lg">
+          <li><a href="#home" class="hover:text-green-200 transition duration-300">Home</a></li>
+          <li><a href="#sobre" class="hover:text-green-200 transition duration-300">Sobre</a></li>
+          <li><a href="#beneficios" class="hover:text-green-200 transition duration-300">Benefícios</a></li>
+          <li><a href="#aplicar" class="hover:text-green-200 transition duration-300">Como Aplicar</a></li>
+          <li><a href="#contato" class="hover:text-green-200 transition duration-300">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="home">
-    <div class="container">
-      <h2>Bem-vindo ao nosso site</h2>
-      <p>Conheça maneiras de conectar o campo e a cidade por meio da agricultura sustentável e horta urbana.</p>
-      <img src="https://i.imgur.com/f8DUA2o.jpg" alt="16 hortaliças para pequenos espaços">
+  <!-- Seção Home -->
+  <section id="home" class="py-16 bg-white text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-6">Bem-vindo ao nosso site</h2>
+      <p class="text-xl text-gray-700 leading-relaxed mb-8 max-w-3xl mx-auto">
+        Explore o poder da agricultura orgânica e sustentável, conectando o campo com a cidade. Descubra como a reciclagem de garrafas pode ajudar no cultivo.
+      </p>
+      <img 
+        src="https://images.unsplash.com/photo-1617093726748-930fb48e4f01?auto=format&fit=crop&w=1200&q=80" 
+        alt="Horta feita com garrafas recicladas" 
+        class="mx-auto" 
+      />
     </div>
   </section>
 
-  <section id="sobre">
-    <div class="container">
-      <h2>Sobre</h2>
-      <p>A agricultura sustentável é essencial para garantir alimentos saudáveis e preservar o meio ambiente.</p>
-      <img src="https://i.imgur.com/g1T7yI6.jpg" alt="Morango cultivado em canos de PVC">
+  <!-- Seção Sobre -->
+  <section id="sobre" class="py-16 bg-gray-50 text-center">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-6">O que é Agricultura Orgânica?</h2>
+      <p class="text-xl text-gray-700 leading-relaxed mb-8">
+        A agricultura orgânica utiliza práticas sustentáveis e sem químicos para preservar a saúde do solo, da água e das plantas. A reciclagem de garrafas PET auxilia na criação de hortas urbanas, reduzindo resíduos.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <img 
+          src="https://images.unsplash.com/photo-1591123126385-1cb0dff073dc?auto=format&fit=crop&w=800&q=80" 
+          alt="Passo a passo plantio em garrafa PET" 
+        />
+        <img 
+          src="https://images.unsplash.com/photo-1625641099310-b168f5f14fd4?auto=format&fit=crop&w=800&q=80" 
+          alt="Garrafas recicladas preparadas para plantio" 
+        />
+      </div>
     </div>
   </section>
 
-  <section id="beneficios">
-    <div class="container">
-      <h2>Benefícios da Agricultura Orgânica</h2>
-      <ul>
-        <li><strong>Saúde:</strong> Alimentos mais nutritivos e livres de agrotóxicos.</li>
-        <li><strong>Ambiente:</strong> Conservação de solo, água e biodiversidade.</li>
-        <li><strong>Economia:</strong> Apoio aos pequenos produtores e ao comércio local.</li>
-      </ul>
-      <img src="https://i.imgur.com/WDxTH0R.jpg" alt="Horta no quintal com alfaces e outras verduras">
+  <!-- Seção Benefícios -->
+  <section id="beneficios" class="py-16 bg-white text-center">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-10">Benefícios da Agricultura Sustentável</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
+        <div class="bg-green-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Redução de Resíduos</h3>
+          <p>Transforme garrafas PET em vasos para hortas, evitando o lixo plástico.</p>
+        </div>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Baixo Custo</h3>
+          <p>Recicle e economize na criação de vasos e suportes para plantas.</p>
+        </div>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Espaço Otimizado</h3>
+          <p>Ideal para hortas verticais e espaços urbanos pequenos.</p>
+        </div>
+        <div class="bg-green-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">Sustentabilidade</h3>
+          <p>Ajuda a preservar o meio ambiente e incentiva práticas ecológicas.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="passos">
-    <div class="container">
-      <h2>Como Plantar em Pequenos Espaços</h2>
-      <p>Siga os passos: escolha um local ensolarado, prepare o solo ou recipiente com adubo natural, plante as sementes, cuide e regue regularmente, e colha no tempo certo.</p>
-      <img src="https://i.imgur.com/yAzRFf3.jpg" alt="Horta vertical com garrafas PET recicladas">
+  <!-- Seção Como Aplicar -->
+  <section id="aplicar" class="py-16 bg-gray-50 text-center">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-10">Como Aplicar a Agricultura Sustentável</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">1. Corte as garrafas PET</h3>
+          <p>Corte as garrafas no formato ideal para o plantio, garantindo espaço para a planta.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">2. Faça furos para drenagem</h3>
+          <p>Abra pequenos furos no fundo para evitar acúmulo de água.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">3. Preencha com terra</h3>
+          <p>Use substrato orgânico adequado para o tipo de planta.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-green-700 mb-4">4. Plante e cuide</h3>
+          <p>Plante as mudas e mantenha a rega e cuidados necessários para o crescimento.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="producao">
-    <div class="container">
-      <h2>Produção Agrícola Moderna</h2>
-      <p>A produção no campo combina tecnologia e práticas ecológicas: uso de tratores, drones para monitoramento, rotação de culturas e preservação ambiental.</p>
-      <img src="https://i.imgur.com/0YLFybb.jpg" alt="Trator e drone em plantação moderna">
-      <img src="https://i.imgur.com/bW0FkF6.jpg" alt="Montagem de imagens de produção no campo, gado e colheita">
-    </div>
-  </section>
-
-  <section id="contato">
-    <div class="container">
-      <h2>Contato</h2>
-      <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required><br>
-
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required><br>
-
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" required></textarea><br>
-
-        <button type="submit">Enviar</button>
+  <!-- Seção Contato -->
+  <section id="contato" class="py-16 bg-white text-center">
+    <div class="container mx-auto px-4 max-w-xl">
+      <h2 class="text-4xl font-extrabold text-green-600 mb-8">Entre em Contato</h2>
+      <form action="#" method="POST" class="bg-gray-50 p-8 rounded-lg shadow-lg text-left">
+        <label for="nome" class="block font-semibold mb-2">Nome:</label>
+        <input type="text" id="nome" name="nome" required
+               class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500" />
+        <label for="email" class="block font-semibold mb-2">Email:</label>
+        <input type="email" id="email" name="email" required
+               class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500" />
+        <label for="mensagem" class="block font-semibold mb-2">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required
+                  class="w-full mb-6 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500"></textarea>
+        <button type="submit"
+                class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full w-full transition duration-300">
+          Enviar
+        </button>
       </form>
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Conexão Campo e Cidade. Todos os direitos reservados.</p>
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-white py-8 text-center">
+    <div class="container mx-auto px-4">
+      <p>&copy; 2025 Conexão Campo e Cidade - Todos os direitos reservados.</p>
+    </div>
   </footer>
+
 </body>
 </html>
