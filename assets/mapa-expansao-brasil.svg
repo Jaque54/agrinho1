@@ -1,0 +1,28 @@
+<!-- /* Jaqueline Agrinho 2026 */ -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa estilizado do Brasil</title>
+  <desc id="desc">Mapa ilustrativo de expansão da tecnologia agrícola no Brasil, com destaque para regiões agrícolas.</desc>
+  <defs>
+    <linearGradient id="land" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff0d8"/>
+      <stop offset="1" stop-color="#7bb46d"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eaf6f0"/>
+      <stop offset="1" stop-color="#cfe7d8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#254625" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <rect width="900" height="620" rx="34" fill="url(#water)"/>
+  <path d="M214 156c42-54 116-82 185-71 35 5 58 23 84 43 21 16 42 32 74 38 42 8 70 27 82 61 12 33 2 72-19 105-18 29-18 52 4 78 24 28 23 64-3 94-28 32-76 48-124 39-34-6-60 6-83 31-27 30-71 42-110 28-42-15-66-50-61-90 4-34-8-56-39-71-40-20-61-55-56-93 3-28-9-49-34-64-36-22-49-62-33-96 10-20 37-20 60-22 30-3 55-9 73-10z" fill="url(#land)" filter="url(#shadow)" stroke="#2e7d32" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M278 180c42 34 86 46 132 37m-126 95c70 16 143 10 218-18m-154 174c39-31 91-54 156-68" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.45"/>
+  <circle cx="353" cy="250" r="16" fill="#2e7d32" stroke="#ffffff" stroke-width="6"/>
+  <circle cx="503" cy="302" r="16" fill="#2e7d32" stroke="#ffffff" stroke-width="6"/>
+  <circle cx="469" cy="460" r="16" fill="#2e7d32" stroke="#ffffff" stroke-width="6"/>
+  <g fill="#315b2f" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">
+    <text x="92" y="72">Expansão agrícola digital</text>
+    <text x="92" y="110" font-size="18" font-weight="500">Tecnologia conectando regiões produtoras</text>
+  </g>
+</svg>

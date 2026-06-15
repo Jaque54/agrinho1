@@ -1,166 +1,340 @@
 <!DOCTYPE html>
+<!-- /* Jaqueline Agrinho 2026 */ -->
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agricultura Orgânica - Conectando Campo e Cidade</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroFuturo - Inovação e Tecnologia no Campo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>🌱 Verde Conexão</h1>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">AgroFuturo</a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#home">Início</a>
+        <a href="#technologies">Tecnologias</a>
+        <a href="#production">Produção</a>
+        <a href="#intelligence">Inteligência Artificial</a>
+        <a href="#expansion">Expansão</a>
+        <a href="#benefits">Benefícios</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Abrir menu">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="hero-label">Campanha Agritech</span>
+          <h1>O Futuro do <span class="text-accent">Agronegócio</span> já começou</h1>
+          <p>AgroFuturo une inteligência artificial, drones, máquinas autônomas e agricultura conectada para transformar lavouras em operações mais produtivas, sustentáveis e digitais.</p>
+          <div class="hero-actions">
+            <a href="#technologies" class="button button-primary">Explorar Soluções</a>
+            <a href="#contact" class="button button-secondary">Solicitar Proposta</a>
+          </div>
+          <div class="hero-highlights">
+            <div>
+              <strong>+40%</strong>
+              <span>ganho de eficiência</span>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#organic-production">Produção Orgânica</a></li>
-                <li><a href="#home-cultivation">Cultivo em Casa</a></li>
-                <li><a href="#sustainability">Sustentabilidade</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1>Conectando Campo e Cidade</h1>
-                <p>Descobra como a agricultura orgânica pode transformar sua vida e o meio ambiente</p>
-                <button class="cta-button">Explore Agora</button>
+            <div>
+              <strong>24/7</strong>
+              <span>monitoramento do solo</span>
             </div>
-            <div class="hero-image">
-                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23D2B48C'/%3E%3Cstop offset='100%25' style='stop-color:%23A0522D'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='600' height='400' fill='url(%23bg)'/%3E%3Cg transform='translate(50,50)'%3E%3Cpath d='M0,300 Q100,250 200,300 T400,300 L500,300 L500,350 L0,350 Z' fill='%23228B22'/%3E%3Ccircle cx='100' cy='200' r='60' fill='%2332CD32'/%3E%3Ccircle cx='300' cy='180' r='40' fill='%2332CD32'/%3E%3Ccircle cx='450' cy='220' r='50' fill='%2332CD32'/%3E%3Cpath d='M80,200 Q100,150 120,200' stroke='%238B4513' stroke-width='3' fill='none'/%3E%3Cpath d='M280,180 Q300,130 320,180' stroke='%238B4513' stroke-width='3' fill='none'/%3E%3Cpath d='M430,220 Q450,170 470,220' stroke='%238B4513' stroke-width='3' fill='none'/%3E%3Crect x='200' y='100' width='100' height='80' fill='%23CD853F'/%3E%3Crect x='220' y='80' width='60' height='20' fill='%23A0522D'/%3E%3Cpolygon points='200,100 250,60 300,100' fill='%23A0522D'/%3E%3C/g%3E%3C/svg%3E" alt="Paisagem rural com agricultura orgânica">
+            <div>
+              <strong>100%</strong>
+              <span>processos digitais</span>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <img src="https://i.pinimg.com/1200x/e2/8e/5a/e28e5a36eec51218776672e88c032b50.jpg" alt="Trator moderno com tecnologia no campo" />
+          </div>
+          <div class="hero-note">
+            <span>Campo conectado</span>
+            <p>Visão de uma fazenda com máquinas inteligentes e gestão digital integrada.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="about" class="section">
-            <div class="container">
-                <h2>A Ponte Entre Campo e Cidade</h2>
-                <div class="content-grid">
-                    <div class="text-content">
-                        <p>A agricultura orgânica representa mais do que uma forma de produção - é uma filosofia que conecta o campo à cidade, promovendo saúde, sustentabilidade e qualidade de vida. Esta conexão vital garante que os benefícios dos alimentos orgânicos cheguem até as mesas urbanas, enquanto conscientiza sobre a importância da preservação ambiental.</p>
-                        
-                        <p>O movimento orgânico surge como resposta às necessidades modernas de alimentação saudável e práticas agrícolas sustentáveis. Através desta ponte entre o rural e o urbano, criamos uma rede de consumo consciente que beneficia produtores, consumidores e o meio ambiente.</p>
-                        
-                        <p>A proximidade entre campo e cidade através da agricultura orgânica fortalece a economia local, reduz a pegada de carbono dos alimentos e promove a educação ambiental nas comunidades urbanas.</p>
-                    </div>
-                    <div class="image-content">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Cdefs%3E%3CradialGradient id='earth' cx='50%25' cy='50%25' r='50%25'%3E%3Cstop offset='0%25' style='stop-color:%23F4A460'/%3E%3Cstop offset='100%25' style='stop-color:%23D2B48C'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='400' height='300' fill='url(%23earth)'/%3E%3Cg transform='translate(0,200)'%3E%3Cpath d='M0,100 Q50,50 100,100 T200,100 T300,100 T400,100 L400,100 L0,100 Z' fill='%23228B22'/%3E%3C/g%3E%3Cg transform='translate(50,50)'%3E%3Crect x='0' y='100' width='20' height='50' fill='%2332CD32'/%3E%3Crect x='30' y='90' width='20' height='60' fill='%2332CD32'/%3E%3Crect x='60' y='110' width='20' height='40' fill='%2332CD32'/%3E%3Crect x='90' y='85' width='20' height='65' fill='%2332CD32'/%3E%3Crect x='120' y='105' width='20' height='45' fill='%2332CD32'/%3E%3C/g%3E%3Cg transform='translate(250,80)'%3E%3Crect x='0' y='0' width='60' height='40' fill='%23CD853F'/%3E%3Crect x='70' y='10' width='50' height='30' fill='%23CD853F'/%3E%3Crect x='10' y='50' width='40' height='25' fill='%23CD853F'/%3E%3Crect x='80' y='45' width='35' height='35' fill='%23CD853F'/%3E%3C/g%3E%3C/svg%3E" alt="Conexão entre campo e cidade">
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="section section-technologies" id="technologies">
+      <div class="container section-header">
+        <span class="section-label">Tecnologias no Campo</span>
+        <h2>Inovação que transforma cada hectare</h2>
+        <p>Da pulverização inteligente aos sensores de solo, estas tecnologias já estão mudando o agronegócio no Brasil.</p>
+      </div>
+      <div class="container cards-grid">
+        <article class="tech-card reveal">
+          <img src="https://i.pinimg.com/1200x/b0/26/29/b02629fe2c4474c606709bb3a17a076c.jpg" alt="Drone agrícola sobre lavoura" />
+          <div class="card-body">
+            <h3>Drones Agrícolas</h3>
+            <p>Mapeamento aéreo e pulverização de precisão para maior controle e menos desperdício.</p>
+          </div>
+        </article>
+        <article class="tech-card reveal">
+          <img src="https://i.pinimg.com/1200x/09/10/c2/0910c2403f13928f5dbc9732035d287d.jpg" alt="Trator trabalhando no campo" />
+          <div class="card-body">
+            <h3>Máquinas Autônomas</h3>
+            <p>Tratores e colheitadeiras autônomas entregam produtividade constante e operação de alto nível.</p>
+          </div>
+        </article>
+        <article class="tech-card reveal">
+          <img src="https://i.pinimg.com/1200x/57/92/94/579294d95e15bb26fdf4704406c62502.jpg" alt="Sensores de solo e tecnologia" />
+          <div class="card-body">
+            <h3>Sensores Inteligentes</h3>
+            <p>Dados de umidade, temperatura e nutrientes que apoiam decisões rápidas e precisas.</p>
+          </div>
+        </article>
+        <article class="tech-card reveal">
+          <img src="https://i.pinimg.com/1200x/ad/b6/7b/adb67bdcbe410a868824988c9faa5bd3.jpg" alt="Campo conectado por IoT" />
+          <div class="card-body">
+            <h3>IoT no Campo</h3>
+            <p>Integração entre sensores, máquinas e plataformas de gestão para uma fazenda digital completa.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-        <section id="organic-production" class="section dark">
-            <div class="container">
-                <h2>Produção de Agricultura Orgânica</h2>
-                <div class="production-grid">
-                    <div class="production-item">
-                        <div class="icon">🌱</div>
-                        <h3>Sem Agrotóxicos</h3>
-                        <p>A produção orgânica elimina completamente o uso de pesticidas sintéticos, herbicidas e fertilizantes químicos, protegendo a saúde do solo, da água e dos consumidores.</p>
-                    </div>
-                    <div class="production-item">
-                        <h3>Biodiversidade</h3>
-                        <div class="icon">🦋</div>
-                        <p>Os sistemas orgânicos promovem a diversidade biológica, criando ecossistemas equilibrados que sustentam polinizadores, predadores naturais e vida microbiana do solo.</p>
-                    </div>
-                    <div class="production-item">
-                        <div class="icon">♻️</div>
-                        <h3>Ciclos Naturais</h3>
-                        <p>Respeita e utiliza os ciclos naturais, como compostagem, rotação de culturas e controle biológico de pragas, mantendo a fertilidade do solo a longo prazo.</p>
-                    </div>
-                    <div class="production-item">
-                        <h3>Certificação</h3>
-                        <div class="icon">✅</div>
-                        <p>Produtos orgânicos passam por rigorosos processos de certificação que garantem o cumprimento de todas as normas de produção sustentável e qualidade.</p>
-                    </div>
-                </div>
-                
-                <div class="detailed-info">
-                    <h3>Processo de Produção Orgânica</h3>
-                    <p>A agricultura orgânica baseia-se em princípios fundamentais que garantem a sustentabilidade ambiental e a qualidade dos alimentos. O processo inicia com a preparação do solo através de métodos naturais, utilizando compostagem e adubação verde para manter a fertilidade.</p>
-                    
-                    <p>O controle de pragas e doenças é realizado através de métodos biológicos, como o uso de predadores naturais, armadilhas e plantas companheiras. A diversificação de culturas e a rotação são estratégias essenciais para quebrar ciclos de pragas e doenças.</p>
-                    
-                    <p>A água utilizada deve ser limpa e livre de contaminantes, e todo o processo produtivo é monitorado para garantir que não haja contaminação cruzada com substâncias proibidas na agricultura orgânica.</p>
-                </div>
-            </div>
-        </section>
+    <section class="section section-important" id="important">
+      <div class="container section-header">
+        <span class="section-label">Informações Importantes</span>
+        <h2>Tecnologia no campo: o que realmente importa</h2>
+        <p>Escolher, implantar e acompanhar soluções agrícolas exige dados confiáveis, suporte técnico e planejamento.</p>
+      </div>
+      <div class="container cards-grid">
+        <article class="tech-card reveal">
+          <div class="card-body">
+            <h3>Dados em tempo real</h3>
+            <p>Conectar sensores e plataformas permite decisões rápidas, prevenção de perdas e ações pontuais conforme o clima e a condição do solo.</p>
+          </div>
+        </article>
+        <article class="tech-card reveal">
+          <div class="card-body">
+            <h3>Confiabilidade operacional</h3>
+            <p>Equipamentos e sistemas precisam funcionar de forma integrada e estável no campo, com suporte técnico local e conectividade robusta.</p>
+          </div>
+        </article>
+        <article class="tech-card reveal">
+          <div class="card-body">
+            <h3>Retorno sobre investimento</h3>
+            <p>Avaliar ganhos reais em produtividade e redução de custos garante que a tecnologia entregue resultado comercial.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-        <section id="home-cultivation" class="section">
-            <div class="container">
-                <h2>Como Ter uma Agricultura Orgânica Reciclável em Casa</h2>
-                
-                <div class="home-garden-intro">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='300' viewBox='0 0 500 300'%3E%3Cdefs%3E%3ClinearGradient id='house-bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23F5DEB3'/%3E%3Cstop offset='100%25' style='stop-color:%23DEB887'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='300' fill='url(%23house-bg)'/%3E%3Cg transform='translate(50,50)'%3E%3Crect x='100' y='80' width='150' height='100' fill='%23CD853F'/%3E%3Cpolygon points='100,80 175,30 250,80' fill='%23A0522D'/%3E%3Crect x='120' y='120' width='30' height='60' fill='%238B4513'/%3E%3Crect x='180' y='110' width='40' height='25' fill='%2387CEEB'/%3E%3Crect x='200' y='140' width='40' height='25' fill='%2387CEEB'/%3E%3C/g%3E%3Cg transform='translate(300,150)'%3E%3Crect x='0' y='0' width='80' height='15' fill='%238B4513'/%3E%3Crect x='10' y='15' width='15' height='40' fill='%23228B22'/%3E%3Crect x='30' y='15' width='15' height='35' fill='%23228B22'/%3E%3Crect x='50' y='15' width='15' height='45' fill='%23228B22'/%3E%3C/g%3E%3Cg transform='translate(80,180)'%3E%3Ccircle cx='20' cy='20' r='15' fill='%23FF6347'/%3E%3Ccircle cx='50' cy='15' r='12' fill='%23FF6347'/%3E%3Ccircle cx='80' cy='25' r='18' fill='%23FF6347'/%3E%3Cpath d='M10,35 Q20,25 30,35' stroke='%23228B22' stroke-width='2' fill='none'/%3E%3Cpath d='M40,30 Q50,20 60,30' stroke='%23228B22' stroke-width='2' fill='none'/%3E%3Cpath d='M70,40 Q80,30 90,40' stroke='%23228B22' stroke-width='2' fill='none'/%3E%3C/g%3E%3Cg transform='translate(350,200)'%3E%3Crect x='0' y='0' width='40' height='25' fill='%238B4513'/%3E%3Cpath d='M5,0 L5,-10 Q5,-15 10,-15 L30,-15 Q35,-15 35,-10 L35,0' fill='%2332CD32'/%3E%3C/g%3E%3C/svg%3E" alt="Horta orgânica em casa">
-                    
-                    <div class="home-garden-text">
-                        <p>Criar uma horta orgânica em casa é mais simples do que parece e traz benefícios incríveis para sua família e o meio ambiente. Com técnicas de reciclagem e sustentabilidade, você pode produzir alimentos saudáveis mesmo em espaços pequenos.</p>
-                    </div>
-                </div>
+    <section class="section section-tips" id="tips">
+      <div class="container section-header">
+        <span class="section-label">Dicas de Produtividade</span>
+        <h2>Etapas para colher mais com menos</h2>
+        <p>Um plano simples para otimização do solo, acesso a dados e escolha do período ideal de plantio.</p>
+      </div>
+      <div class="container tips-grid">
+        <article class="tip-card reveal">
+          <div class="tip-number">01</div>
+          <h3>Preparo do Solo</h3>
+          <p>Combine análise de solo com adubação moderna e técnicas de conservação para raízes mais saudáveis.</p>
+        </article>
+        <article class="tip-card reveal">
+          <div class="tip-number">02</div>
+          <h3>GPS e Precisão</h3>
+          <p>Use posicionamento de alta precisão para reduzir sobreposição e aumentar a uniformidade de aplicação.</p>
+        </article>
+        <article class="tip-card reveal">
+          <div class="tip-number">03</div>
+          <h3>Época de Plantio</h3>
+          <p>Escolha o melhor momento com base em dados climáticos e de solo para garantir safras mais estáveis.</p>
+        </article>
+      </div>
+    </section>
 
-                <div class="steps-container">
-                    <h3>Passos para Começar sua Horta Orgânica</h3>
-                    
-                    <div class="step">
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h4>Escolha do Local</h4>
-                            <p>Selecione um espaço que receba pelo menos 4-6 horas de sol direto. Pode ser um quintal, varanda, terraço ou até mesmo perto de uma janela ensolarada. Considere a proximidade com fonte de água para facilitar a irrigação.</p>
-                        </div>
-                    </div>
+    <section class="section section-expansion" id="expansion">
+      <div class="container section-header">
+        <span class="section-label">Expansão no Brasil</span>
+        <h2>Presença forte nas regiões agrícolas</h2>
+        <p>A expansão do agronegócio acontece com a adoção de tecnologias em diferentes regiões, tornando áreas antes pouco produtivas mais eficientes e conectadas.</p>
+      </div>
+      <div class="container expansion-grid reveal">
+        <div class="map-panel">
+          <div class="map-card">
+            <img src="assets/mapa-expansao-brasil.svg" alt="Mapa de expansão da tecnologia agrícola no Brasil" />
+            <div class="pin pin-1">Cerrado</div>
+            <div class="pin pin-2">Mato Grosso</div>
+            <div class="pin pin-3">Região Sul</div>
+          </div>
+        </div>
+        <div class="expansion-copy">
+          <h3>Regiões com maior potencial</h3>
+          <p>Do Cerrado ao Sul, soluções agrícolas digitais podem ser adaptadas às características de cada bioma e propriedade.</p>
+          <ul>
+            <li>Atendimento regional e suporte técnico local</li>
+            <li>Soluções testadas para grãos, hortifrúti e pecuária</li>
+            <li>Rede de dados com monitoramento nacional</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-                    <div class="step">
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h4>Preparação do Solo e Recipientes</h4>
-                            <p>Use recipientes reciclados como garrafas PET, latas, caixas de madeira ou pneus velhos. Faça furos para drenagem e prepare uma mistura de terra vegetal, húmus de minhoca e areia. Evite terra de jardim comum que pode conter agrotóxicos.</p>
-                        </div>
-                    </div>
+    <section class="section section-production" id="production">
+      <div class="container section-header">
+        <span class="section-label">Produção e Qualidade</span>
+        <h2>Mais produtividade com maior qualidade</h2>
+        <p>Com tecnologia aplicada em cada etapa, é possível produzir melhor, reduzir perdas e acompanhar a cadeia do campo à entrega.</p>
+      </div>
+      <div class="container production-grid reveal">
+        <article class="production-card">
+          <img src="https://i.pinimg.com/1200x/02/cb/ba/02cbbaa9a62816fb59b567a642639f5a.jpg" alt="Rastreabilidade e logística agrícola" />
+          <div class="card-body">
+            <h3>Rastreabilidade total</h3>
+            <p>Dados de campo garantem produtos rastreáveis, seguros e com qualidade certificada.</p>
+          </div>
+        </article>
+        <article class="production-card">
+          <img src="https://i.pinimg.com/1200x/79/3c/0f/793c0f13beb033a28c6247f5359c52bb.jpg" alt="Colheita inteligente com tecnologia" />
+          <div class="card-body">
+            <h3>Colheita inteligente</h3>
+            <p>Integramos colheita e logística para reduzir perdas e manter a eficiência do campo à prateleira.</p>
+          </div>
+        </article>
+        <article class="production-card">
+          <img src="assets/produtor-conectado.svg" alt="Produtor usando tablet no campo" />
+          <div class="card-body">
+            <h3>Agricultor conectado</h3>
+            <p>Relatórios visuais e informações em tempo real tornam a tomada de decisão mais rápida e segura.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-                    <div class="step">
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h4>Compostagem Doméstica</h4>
-                            <p>Crie seu próprio adubo orgânico aproveitando restos de frutas, verduras, borra de café, casca de ovo e folhas secas. Monte uma composteira com baldes ou caixas furadas, alternando camadas de material úmido e seco.</p>
-                        </div>
-                    </div>
+    <section class="section section-important" id="intelligence">
+      <div class="container section-header">
+        <span class="section-label">Inteligência Artificial</span>
+        <h2>Como a <span class="text-accent">IA</span> transforma o campo</h2>
+        <p>A IA analisa clima, solo, histórico de safra e imagens do campo para prever problemas, recomendar ações e reduzir desperdícios.</p>
+      </div>
+      <div class="container cards-grid">
+        <article class="tech-card reveal">
+          <div class="card-body">
+            <h3>Previsões de Safra</h3>
+            <p>Modelos estimam produção, perdas e necessidades de insumos com base em dados reais.</p>
+          </div>
+        </article>
+        <article class="tech-card reveal">
+          <div class="card-body">
+            <h3>Detecção de Pragas</h3>
+            <p>Sistemas identificam sinais no campo e recomendam ações antes que o problema se espalhe.</p>
+          </div>
+        </article>
+        <article class="tech-card reveal">
+          <div class="card-body">
+            <h3>Otimização de Rotas</h3>
+            <p>Rotas eficientes para máquinas e logística reduzem combustível, tempo e custo operacional.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-                    <div class="step">
-                        <div class="step-number">4</div>
-                        <div class="step-content">
-                            <h4>Escolha das Plantas</h4>
-                            <p>Comece com plantas fáceis como alface, rúcula, cebolinha, salsinha, manjericão e tomate-cereja. Considere o espaço disponível e o tempo de crescimento. Plantas aromáticas são ótimas para iniciantes.</p>
-                        </div>
-                    </div>
+    <section class="section section-benefits" id="benefits">
+      <div class="container section-header">
+        <span class="section-label">Benefícios</span>
+        <h2><span class="text-accent">Resultados</span> mensuráveis no campo</h2>
+        <p>A tecnologia melhora a tomada de decisão, o planejamento da produção e a competitividade do produtor rural.</p>
+      </div>
+      <div class="container benefits-grid reveal">
+        <article class="benefit-card">
+          <h3>Precisão de plantio e colheita</h3>
+          <p>Controle exato da aplicação de insumos e da operação de máquinas reduz falhas e aumenta a produtividade por área.</p>
+        </article>
+        <article class="benefit-card">
+          <h3>Redução de perdas</h3>
+          <p>Monitoramento contínuo identifica riscos e minimiza perdas na produção com ações rápidas e localizadas.</p>
+        </article>
+        <article class="benefit-card">
+          <h3>Uso otimizado de equipamentos</h3>
+          <p>Dados e automação permitem que máquinas trabalhem com maior eficiência e menos horas de operação desnecessárias.</p>
+        </article>
+        <article class="benefit-card">
+          <h3>Competitividade no mercado</h3>
+          <p>Produtores conectados entregam mais qualidade e previsibilidade, conquistando melhores preços e clientes.</p>
+        </article>
+      </div>
+      <div class="container stats-grid reveal">
+        <article class="stat-card">
+          <h3><span class="stat-number" data-target="62" data-suffix="%">0</span></h3>
+          <p>Redução de desperdício de insumos</p>
+        </article>
+        <article class="stat-card">
+          <h3><span class="stat-number" data-target="68" data-suffix="%">0</span></h3>
+          <p>Aumento de produtividade nas lavouras</p>
+        </article>
+        <article class="stat-card">
+          <h3><span class="stat-number" data-target="48" data-suffix="%">0</span></h3>
+          <p>Economia de água e energia</p>
+        </article>
+      </div>
+    </section>
 
-                    <div class="step">
-                        <div class="step-number">5</div>
-                        <div class="step-content">
-                            <h4>Controle Natural de Pragas</h4>
-                            <p>Use receitas caseiras como água com sabão neutro, óleo de neem, ou plantas repelentes como citronela e cravo-de-defunto. Incentive a presença de joaninhas e outros predadores naturais.</p>
-                        </div>
-                    </div>
+    <section class="section section-contact" id="contact">
+      <div class="container contact-grid reveal">
+        <div class="contact-copy">
+          <span class="section-label">Contato</span>
+          <h2>Fale com a equipe AgroFuturo</h2>
+          <p>Todos os canais de contato ficam centralizados aqui para facilitar o atendimento.</p>
+          <ul class="contact-list">
+            <li><strong>Telefone:</strong> (44) 99999-9999</li>
+            <li><strong>E-mail:</strong> contato@agrofuturo.com.br</li>
+            <li><strong>Consulta:</strong> tire dúvidas sobre tecnologias para sua propriedade.</li>
+            <li><strong>Agendamento:</strong> marque uma conversa para avaliar soluções agrícolas.</li>
+          </ul>
+        </div>
+        <form class="contact-form" action="#" method="POST">
+          <label>
+            Nome
+            <input type="text" name="nome" placeholder="Seu nome" required />
+          </label>
+          <label>
+            E-mail
+            <input type="email" name="email" placeholder="seuemail@exemplo.com" required />
+          </label>
+          <label>
+            Telefone
+            <input type="tel" name="telefone" placeholder="(00) 00000-0000" />
+          </label>
+          <label>
+            Tipo de solicitação
+            <select name="tipo" required>
+              <option value="">Selecione uma opção</option>
+              <option value="proposta">Solicitar proposta</option>
+              <option value="consulta">Consulta</option>
+              <option value="agendamento">Agendamento</option>
+            </select>
+          </label>
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="5" placeholder="Conte como podemos ajudar"></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-                    <div class="step">
-                        <div class="step-number">6</div>
-                        <div class="step-content">
-                            <h4>Sistema de Irrigação Sustentável</h4>
-                            <p>Instale um sistema de gotejamento com garrafas PET furadas ou reutilize água da chuva. Regue preferencialmente no início da manhã ou final da tarde para evitar evaporação excessiva.</p>
-                        </div>
-                    </div>
-                </div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 AgroFuturo. Tecnologia agrícola que conecta campo, dados e resultados.</p>
+      <p>Trabalho sobre tecnologia no campo.</p>
+    </div>
+  </footer>
 
-                <div class="recycling-tips">
-                    <h3>Dicas de Reciclagem para sua Horta</h3>
-                    <div class="tips-grid">
-                        <div class="tip-card">
-                            <h4>Garrafas PET</h4>
-                            <p>Transforme em vasos suspensos, sistemas de irrigação por gotejamento ou mini estufas para mudas.</p>
-                        </div>
-                        <div class="tip-card">
-                            <h4>Caixas de Leite</h4>
-                            <p>Ótimas para semear mudas. Corte pela metade
+  <script src="script.js"></script>
+</body>
+</html>
